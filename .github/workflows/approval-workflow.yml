@@ -7,6 +7,6 @@ jobs:
       name: Automatic approval
       uses: pullreminders/label-when-approved-action@master
       env:
-          APPROVAL: "2"
+          APPROVAL: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADD_LABEL: "PR is approved"
